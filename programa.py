@@ -92,6 +92,7 @@ while not acabou:
         print("Linha inválida!")
         linha = int(input("Linha do ataque: "))
 
+
     coluna = int(input("Coluna do ataque: "))
     while coluna < 0 or coluna > 9:
         print("Coluna inválida!")
